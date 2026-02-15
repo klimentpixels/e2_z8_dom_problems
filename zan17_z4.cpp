@@ -15,7 +15,7 @@ int main() {
         cin >>  dist;
         cin >> speed;
         cin >> plan_time;
-        cout << "distance= " << dist << " spped= " << speed << " planned time= " << plan_time << "\n";
+        cout << "distance= " << dist << " speed= " << speed << " planned time= " << plan_time << "\n";
         actual_time= trip_time(dist, speed);
         cout << "actual time: "<< actual_time << " hours\n";
         if(actual_time <= plan_time){
