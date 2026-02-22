@@ -29,7 +29,7 @@ int main() {
     cout << "Input B= ";
     cin >> B;
     
-    cout << "the self-gen numbers from A to B are: \n";
+    cout << "the special numbers from A to B are: \n";
     
     for(int i= A; i <= B; i++){
         if(isDigitDivisible(i)){
